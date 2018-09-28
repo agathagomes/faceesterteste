@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>timeline(container1)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  </head>
+
+  <body style="background-color: #E6E4E4">
+
+
+<div class="container">
+<div style="background-image: url('img/leao3.jpg'); width: 800px; height: 350px;">
+    <img src="img/leao.jpg" style="width: 200px; height: 200px; ">
+</div>
+
+<div class="card row" style="width: 50rem;">
+  <div class="card-body">
+<ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#"><a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Linha do tempo
+        </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><i class="fas fa-align-justify"></i>   Visualização em Lista</a>
+              <a class="dropdown-item" href="#"><i class="fab fa-buromobelexperte"></i>   Visualização em grade</a></a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="padding: 24px;">   Sobre    </a>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="padding: 24px;"> Amigos     </a>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="padding: 24px;"> Fotos     </a>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="padding: 24px;"> Arquivo     </a>
+       <li class="nav-item">
+        <a class="nav-link active" href="#"><a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mais  
+        </a>
+      </li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Não mexa daqui para baixo!!! -->
+    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
